@@ -7,7 +7,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "debug": "nodemon --inspect=127.0.0.1:9229 server.js"
+    "debug": "nodemon -L --inspect=127.0.0.1:9229 server.js"
   },
   "dependencies": {
     "express": "^4.16.1",
